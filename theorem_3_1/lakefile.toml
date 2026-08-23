@@ -1,0 +1,38 @@
+name = "theorem_3_1"
+version = "0.1.0"
+defaultTargets = ["StressTensor", "Theorem31"]
+
+[[lean_lib]]
+name = "StressTensor"
+
+[[lean_lib]]
+name = "MaximalityOfU"
+
+[[lean_lib]]
+name = "GammaMaximalityBridge"
+
+[[lean_lib]]
+name = "BornInfeldSubgradient"
+
+[[lean_lib]]
+name = "LocalizedStressBounds"
+
+[[lean_lib]]
+name = "Section33WeakEuler"
+
+[[lean_lib]]
+name = "Section33Integrability"
+
+[[lean_lib]]
+name = "Theorem31Packaging"
+
+[[lean_lib]]
+name = "Section33DenseEuler"
+
+[[lean_lib]]
+name = "Theorem31"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.33.0"
